@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>UDID</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#F55766">
+  <link rel="stylesheet" href="files/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find UDID of your iOS Device</h1>
+    <p>By Neosign Team</p>
+    <p><a class="button" href="https://myudid.me/get_mobileconfig.php">Get UDID</a></p>
+  </div>
+  
+  <script>
+    document.querySelector('.button').addEventListener('touchstart', function() {
+      this.style.transform = 'scale(0.95)';
+    });
+    document.querySelector('.button').addEventListener('touchend', function() {
+      this.style.transform = 'scale(1)';
+    });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      var fullscreenElement = document.createElement('div');
+      fullscreenElement.style.position = 'fixed';
+      fullscreenElement.style.top = '0';
+      fullscreenElement.style.left = '0';
+      fullscreenElement.style.width = '100%';
+      fullscreenElement.style.height = '100%';
+      fullscreenElement.style.backgroundColor = '#F55766';
+      fullscreenElement.style.zIndex = '-2';
+      document.body.appendChild(fullscreenElement);
+    });
+    
+    document.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+    }, { passive: false });
+    
+    document.addEventListener('gesturestart', function(e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+</html>
