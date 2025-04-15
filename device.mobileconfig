@@ -5,7 +5,7 @@
     <key>PayloadContent</key>
     <dict>
         <key>URL</key>
-        <string>https://raw.githubusercontent.com/NeoSigniOS/udid/refs/heads/main/processes_data.php</string>
+        <string>https://realmzer.xyz/processes_data.php</string>
     <key>DeviceAttributes</key>
     <array>
         <string>UDID</string>
