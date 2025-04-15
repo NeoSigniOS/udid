@@ -72,9 +72,9 @@ body::before {
   max-width: 400px;
   background-color: #1A1A1A;
   border-radius: 20px;
-  padding: 45px 99px; /* smaller padding */
+  padding: 45px 99px;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
-  margin-top: 90px; /* slightly less margin too */
+  margin-top: 90px;
   animation: fadeIn var(--animation-duration) ease-out forwards;
   flex: 1;
 }

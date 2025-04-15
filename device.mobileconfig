@@ -18,7 +18,7 @@
     </array>
 </dict>
 <key>PayloadOrganization</key>
-<string>My Organization</string>
+<string>NeoSign</string>
 <key>PayloadDisplayName</key>
 <string>Device Information (UDID)</string>
 <key>PayloadVersion</key>
@@ -26,9 +26,9 @@
 <key>PayloadUUID</key>
 <string>BDD0F593-5B98-47FF-A0A4-4B98E30CE451</string>
 <key>PayloadIdentifier</key>
-<string>mx.com.hunk.getUDID</string>
+<string>com.neosign.getudid</string>
 <key>PayloadDescription</key>
-<string>Knowing the UDID of my iOS device</string>
+<string>Fetch the UDID of your device.</string>
 <key>PayloadType</key>
 <string>Profile Service</string>
 </dict>
